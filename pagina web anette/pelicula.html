@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Película Favorita</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #361d4b;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+        }
+        h2, h3 {
+            color: #000000;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            border: 1px dashed #000000;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #000000;
+        }
+        ul, ol {
+            margin-left: 20px;
+        }
+        video {
+            max-width: 50%;
+            height: auto;
+            display: block;
+        
+        }
+        footer {
+            background-color: #361d4b;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Película Favorita</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="pelicula.html">Película Favorita</a></li>
+                <li><a href="pintura.html">Pintura Favorita</a></li>
+                <li><a href="cancion.html">Canción Favorita</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <section>
+                <h2>Sinopsis</h2>
+                <p>Matilda es una película dirigida por Danny DeVito, basada en el libro de Roald Dahl. La historia sigue a Matilda Wormwood, una niña extremadamente inteligente y con habilidades especiales.</p>
+                <h3>Tráiler</h3>
+                <video controls>
+                    <source src="recursos/trailer.mp4" type="video/mp4">
+                </video>
+                <h3>Información de la Película</h3>
+                <table>
+                    <tr>
+                        <th>Año</th>
+                        <th>Director</th>
+                        <th>Género</th>
+                        <th>Actores</th>
+                    </tr>
+                    <tr>
+                        <td>1996</td>
+                        <td>Danny DeVito</td>
+                        <td>Infantil, Acción, Comedia, Fantasía</td>
+                        <td>Mara Wilson, Rhea Perlman, Danny DeVito, Embeth Davidtz, Pam Ferris</td>
+                    </tr>
+                </table>
+                <h3>Datos Curiosos</h3>
+                <ol>
+                    <li>La señorita Trunchbull fue interpretada por un hombre.</li>
+                    <li>La película fue dirigida por Danny DeVito.</li>
+                    <li>La casa de los Wormwood.</li>
+                </ol>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Creado por Anette Cano Quintana</p>
+    </footer>
+</body>
+</html>
